@@ -35,5 +35,4 @@ In this example, there are two sets of login scenarios: incorrectPassword and em
 ## Approach
 * In this project, we used Playwright as the automation library to interact with the website, Jest as the testing framework. 
 * We also used the Page Object Model design pattern to keep our code modular and organized. 
-* To follow DDT approach, we are storing the credentials in a separate JSON file and divide them by different scenarios, which is imported and used in the tests. 
-* To keep sensetive data secret we are implementing CI/CD env variabled and the real password is taking during runtime. It is best practice to keep sensetive data encrypted. 
+* To follow DDT approach, we are storing the login data in a separate JSON file and divide them by different scenarios, which is imported and used in the tests. 
